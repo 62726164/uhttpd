@@ -17,7 +17,7 @@ GET / HTTP/1.0
 HOST: HOST
 ```
 
-## Test connectivity to the hidden service from another Tor client
+## Test connectivity to the hidden service
 
 ```bash
 $ curl --socks5-hostname 127.0.0.1:9050 http://xxxxxxxxxxxxxxx.onion
