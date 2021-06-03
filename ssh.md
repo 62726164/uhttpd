@@ -25,5 +25,5 @@ If the server only allows SSH keys to authenticate, you can add normal host defi
 ```
 host xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.onion
 user bob
-identityfile /home/bob/.ssh/x16
+identityfile /home/bob/.ssh/keyname
 ```
