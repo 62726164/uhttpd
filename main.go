@@ -17,8 +17,8 @@ func logHandler(h http.Handler) http.Handler {
 }
 
 func main() {
-	var socket = flag.String("socket", "/tmp/httpd.sock", "the path to the unix domain socket")
-	var webroot = flag.String("webroot", "/tmp/webroot.", "the path to the webroot")
+	var socket = flag.String("socket", "/var/lib/tor-onion-sockets/httpd.sock", "the path to the unix domain socket")
+	var webroot = flag.String("webroot", "webroot.", "the path to the webroot")
 	var help = flag.Bool("help", false, "show help.")
 
 	flag.Parse()
