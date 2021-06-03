@@ -20,7 +20,7 @@ Finally, ssh to the server from a client:
 $ torsocks ssh user@xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.onion
 ```
 
-If you only use keys to authenticate, you can add normal host definitions to /home/user/ssh/config:
+If the server only allows SSH keys to authenticate, you can add normal host definitions to /home/bob/.ssh/config:
 
 ```
 host xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.onion
